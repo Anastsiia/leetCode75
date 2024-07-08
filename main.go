@@ -7,6 +7,6 @@ import (
 
 func main() {
 	word1 := "abc"
-	word2 := "pqr"
+	word2 := "vbn"
 	fmt.Println(functions.MergeAlternately(word1, word2))
 }
