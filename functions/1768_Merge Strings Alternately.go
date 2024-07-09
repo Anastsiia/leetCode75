@@ -6,6 +6,15 @@ Return the merged string.
 package functions
 
 func MergeAlternately(word1 string, word2 string) string {
-
-	return "hello"
+	res := []byte{}
+	i := 0
+	for ; i < len(word2) || i < len(word1); i++ {
+		if i < len(word1) {
+			res = append(res, word1[i])
+		}
+		if i < len(word2) {
+			res = append(res, word2[i])
+		}
+	}
+	return string(res)
 }
