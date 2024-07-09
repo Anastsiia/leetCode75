@@ -17,7 +17,11 @@ func main() {
 	// fmt.Println(functions.GcdOfStrings(word1, word2))
 
 	//1431:
-	candies := []int{4, 2, 1, 1, 2}
-	extraCandies := 0
-	fmt.Println(functions.KidsWithCandies(candies, extraCandies))
+	// candies := []int{4, 2, 1, 1, 2}
+	// extraCandies := 0
+	// fmt.Println(functions.KidsWithCandies(candies, extraCandies))
+
+	flowerbed := []int{0, 0, 0}
+	n := 2
+	fmt.Println(functions.CanPlaceFlowers(flowerbed, n))
 }
