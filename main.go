@@ -21,7 +21,12 @@ func main() {
 	// extraCandies := 0
 	// fmt.Println(functions.KidsWithCandies(candies, extraCandies))
 
-	flowerbed := []int{0, 0, 0}
-	n := 2
-	fmt.Println(functions.CanPlaceFlowers(flowerbed, n))
+	//605:
+	// flowerbed := []int{0, 0, 0}
+	// n := 2
+	// fmt.Println(functions.CanPlaceFlowers(flowerbed, n))
+
+	//345:
+	str := "hll"
+	fmt.Println(functions.ReverseVowels(str))
 }
