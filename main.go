@@ -31,6 +31,10 @@ func main() {
 	// fmt.Println(functions.ReverseVowels(str))
 
 	// 151:
-	str := "     the     sky is  blue"
-	fmt.Println(functions.ReverseWords(str))
+	// str := "     the     sky is  blue"
+	// fmt.Println(functions.ReverseWords(str))
+
+	// 238:
+	num := []int{1, 2, 3, 4}
+	fmt.Println(functions.ProductExceptSelf(num))
 }
