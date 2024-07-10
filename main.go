@@ -12,8 +12,25 @@ func main() {
 	// fmt.Println(functions.MergeAlternately(word1, word2))
 
 	//1071:
-	word1 := "aab"
-	word2 := "aabaabaab"
-	fmt.Println(functions.GcdOfStrings(word1, word2))
+	// word1 := "aab"
+	// word2 := "aabaabaab"
+	// fmt.Println(functions.GcdOfStrings(word1, word2))
 
+	//1431:
+	// candies := []int{4, 2, 1, 1, 2}
+	// extraCandies := 0
+	// fmt.Println(functions.KidsWithCandies(candies, extraCandies))
+
+	//605:
+	// flowerbed := []int{0, 0, 0}
+	// n := 2
+	// fmt.Println(functions.CanPlaceFlowers(flowerbed, n))
+
+	//345:
+	// str := "hll"
+	// fmt.Println(functions.ReverseVowels(str))
+
+	// 151:
+	str := "     the     sky is  blue"
+	fmt.Println(functions.ReverseWords(str))
 }
