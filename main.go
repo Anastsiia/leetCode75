@@ -27,6 +27,10 @@ func main() {
 	// fmt.Println(functions.CanPlaceFlowers(flowerbed, n))
 
 	//345:
-	str := "hll"
-	fmt.Println(functions.ReverseVowels(str))
+	// str := "hll"
+	// fmt.Println(functions.ReverseVowels(str))
+
+	// 151:
+	str := "     the     sky is  blue"
+	fmt.Println(functions.ReverseWords(str))
 }
