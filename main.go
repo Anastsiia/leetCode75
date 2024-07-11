@@ -43,6 +43,11 @@ func main() {
 	// fmt.Println(functions.IncreasingTriplet(num))
 
 	//443:
-	chars := []byte{'a', 'a', 'b', 'c'}
-	fmt.Println(functions.Compress(chars))
+	// chars := []byte{'a', 'a', 'b', 'c'}
+	// fmt.Println(functions.Compress(chars))
+
+	//283:
+	nums := []int{0, 4, 2, 1, 0, -1, -3}
+	functions.MoveZeroes(nums)
+	fmt.Println(nums)
 }
