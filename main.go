@@ -47,7 +47,12 @@ func main() {
 	// fmt.Println(functions.Compress(chars))
 
 	//283:
-	nums := []int{0, 4, 2, 1, 0, -1, -3}
-	functions.MoveZeroes(nums)
-	fmt.Println(nums)
+	// nums := []int{0, 4, 2, 1, 0, -1, -3}
+	// functions.MoveZeroes(nums)
+	// fmt.Println(nums)
+
+	//392:
+	str1 := "baaa"
+	str2 := "bbaaa"
+	fmt.Println(functions.IsSubsequence(str1, str2))
 }
