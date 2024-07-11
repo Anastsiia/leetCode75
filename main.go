@@ -31,6 +31,18 @@ func main() {
 	// fmt.Println(functions.ReverseVowels(str))
 
 	// 151:
-	str := "     the     sky is  blue"
-	fmt.Println(functions.ReverseWords(str))
+	// str := "     the     sky is  blue"
+	// fmt.Println(functions.ReverseWords(str))
+
+	// 238:
+	// num := []int{1, 2, 3, 4}
+	// fmt.Println(functions.ProductExceptSelf(num))
+
+	//334:
+	// num := []int{0, 4, 2, 1, 0, -1, -3}
+	// fmt.Println(functions.IncreasingTriplet(num))
+
+	//443:
+	chars := []byte{'a', 'a', 'b', 'c'}
+	fmt.Println(functions.Compress(chars))
 }
