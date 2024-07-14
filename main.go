@@ -61,6 +61,10 @@ func main() {
 	// fmt.Println(functions.MaxArea(nums))
 
 	//1679:
-	nums := []int{2, 5, 4, 4, 1, 3, 4, 4, 1, 4, 4, 1, 2, 1, 2, 2, 3, 2, 4, 2}
-	fmt.Println(functions.MaxOperations(nums, 3))
+	// nums := []int{2, 5, 4, 4, 1, 3, 4, 4, 1, 4, 4, 1, 2, 1, 2, 2, 3, 2, 4, 2}
+	// fmt.Println(functions.MaxOperations(nums, 3))
+
+	//643:
+	nums := []int{1, 12, -5, -6, 50, 3}
+	fmt.Println(functions.FindMaxAverage(nums, 4))
 }
