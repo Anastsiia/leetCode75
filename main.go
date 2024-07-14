@@ -52,7 +52,11 @@ func main() {
 	// fmt.Println(nums)
 
 	//392:
-	str1 := "baaa"
-	str2 := "bbaaa"
-	fmt.Println(functions.IsSubsequence(str1, str2))
+	// str1 := "baaa"
+	// str2 := "bbaaa"
+	// fmt.Println(functions.IsSubsequence(str1, str2))
+
+	//11:
+	nums := []int{1, 8, 6, 2, 5, 4, 8, 3, 7}
+	fmt.Println(functions.MaxArea(nums))
 }
