@@ -65,6 +65,10 @@ func main() {
 	// fmt.Println(functions.MaxOperations(nums, 3))
 
 	//643:
-	nums := []int{1, 12, -5, -6, 50, 3}
-	fmt.Println(functions.FindMaxAverage(nums, 4))
+	// nums := []int{1, 12, -5, -6, 50, 3}
+	// fmt.Println(functions.FindMaxAverage(nums, 4))
+
+	//1456:
+	str := "ramadan"
+	fmt.Println(functions.MaxVowels(str, 3))
 }

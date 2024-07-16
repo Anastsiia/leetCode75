@@ -5,7 +5,7 @@ The vowels are 'a', 'e', 'i', 'o', and 'u', and they can appear in both lower an
 */
 package functions
 
-func isVowel(c rune) bool {
+func IsVowel(c rune) bool {
 	check := "aAeEiIoOuU"
 	for _, v := range check {
 		if v == c {
@@ -19,9 +19,9 @@ func ReverseVowels(s string) string {
 	res := []rune(s)
 	right, left := len(s)-1, 0
 	for left < right {
-		for ; left < right && !isVowel(res[left]); left++ {
+		for ; left < right && !IsVowel(res[left]); left++ {
 		}
-		for ; right > left && !isVowel(res[right]); right-- {
+		for ; right > left && !IsVowel(res[right]); right-- {
 		}
 		res[left], res[right] = res[right], res[left]
 		left++
